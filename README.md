@@ -18,5 +18,9 @@ My local IP was something like `192.168.1.5`, so I used the range `192.168.1.0/2
 3. **Performed a TCP SYN scan** with the command:
 4. **Noted down all the devices** detected in the network and the open ports on each.
 5. Saved the scan results using:
+6. ## 📷 Screenshots
+
+### Nmap Scan Result
+![Nmap](nmap_scan_result.png)
 
 
