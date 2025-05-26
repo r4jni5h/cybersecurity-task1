@@ -1,0 +1,36 @@
+# Nmap 7.95 scan initiated Mon May 26 14:21:20 2025 as: nmap -sS -oN scan_result.txt 192.168.1.0/24
+Nmap scan report for 192.168.1.1
+Host is up (0.036s latency).
+Not shown: 994 closed tcp ports (reset)
+PORT    STATE    SERVICE
+21/tcp  filtered ftp
+22/tcp  filtered ssh
+23/tcp  filtered telnet
+53/tcp  open     domain
+80/tcp  open     http
+443/tcp open     https
+MAC Address: 8C:C7:C3:5D:0B:57 (Netlink ICT)
+
+Nmap scan report for 192.168.1.35
+Host is up (0.024s latency).
+Not shown: 997 closed tcp ports (reset)
+PORT     STATE SERVICE
+554/tcp  open  rtsp
+8800/tcp open  sunwebadmin
+8899/tcp open  ospf-lite
+MAC Address: 60:FB:00:04:20:B3 (Shenzhen Bilian Electronic，LTD)
+
+Nmap scan report for 192.168.1.36
+Host is up (0.020s latency).
+All 1000 scanned ports on 192.168.1.36 are in ignored states.
+Not shown: 1000 closed tcp ports (reset)
+MAC Address: 66:FC:76:A0:1E:FE (Unknown)
+
+Nmap scan report for 192.168.1.38
+Host is up (0.000050s latency).
+Not shown: 998 closed tcp ports (reset)
+PORT     STATE SERVICE
+5000/tcp open  upnp
+7000/tcp open  afs3-fileserver
+
+# Nmap done at Mon May 26 14:21:51 2025 -- 256 IP addresses (4 hosts up) scanned in 31.06 seconds
